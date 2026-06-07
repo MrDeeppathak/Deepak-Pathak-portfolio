@@ -1,0 +1,26 @@
+{
+  "site": {
+    "tagline": "Hi, Welcome to my Portfolio"
+  },
+  "hero": {
+    "pills": [
+      "EdTech Systems",
+      "Tech Analysis",
+      "AI Tools",
+      "Prompt Engineering",
+      "Product Building"
+    ],
+    "cta": "View Work",
+    "availabilityLabel": "Available for meaningful product work"
+  },
+  "sections": {
+    "about": "Who I Am",
+    "projects": "Selected Work",
+    "experience": "Case Studies",
+    "credibility": "Achievements & Credibility"
+  },
+  "footer": {
+    "eyebrow": "Open to collaboration",
+    "cta": "Let's build smarter learning products."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "name": {
+    "first": "Deepak",
+    "last": "Pathak",
+    "full": "Deepak Pathak"
+  },
+  "headline": "Educator, Developer & AI Tools Specialist",
+  "description": "EdTech-focused tech analyst and AI tools specialist building practical systems for assessment, content quality, and product workflows.",
+  "location": {
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "country": "India"
+  },
+  "roles": {
+    "short": "EdTech Product Builder",
+    "detailed": "EdTech · Tech Analysis · AI Tools · Prompt Engineering · Product Building"
+  },
+  "availability": {
+    "status": "Open to impactful product and EdTech opportunities",
+    "scope": "India and remote-friendly roles"
+  },
+  "bio": "AI-driven EdTech specialist, Technical analyst ana Assistant Professor with experience across instructional design, academic technology, assessment QA, and AI-assisted workflow building. I bridge the gap between education and technology — from teaching Computer Science to designing scalable learning systems, validating content at scale, and building AI-powered tools for educators.",
+  "stats": [
+    { "value": "1.6+", "label": "Years in EdTech, Academia & Development" },
+    { "value": "500+", "label": "Assessment Items Reviewed" },
+    { "value": "200+", "label": "Students Mentored" }
+  ],
+  "strengths": [
+    "Instructional Design",
+    "Assessment QA",
+    "Requirement Gathering",
+    "Stakeholder Communication",
+    "Prompt Engineering",
+    "AI Workflow Automation",
+    "CMS/LMS Operations",
+    "Product Thinking",
+    "Frontend Development",
+    "Content Strategy"
+  ],
+  "socials": [
+    { "label": "Email", "href": "mailto:deepak.pathak0530@gmail.com" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/deepak-pathak-deepak-pathak-developer/" },
+    { "label": "GitHub", "href": "https://github.com/mrdeeppathak" }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "MCQ Forge",
+      "type": "EdTech Product",
+      "link": "https://mrdeeppathak.github.io/mcqforge-/",
+      "subtitle": "AI-powered question bank generator for educators",
+      "desc": "Transforms syllabus content into exam-ready, LMS-friendly MCQ banks with a structured AI generation workflow. Built to eliminate the manual bottleneck in assessment creation for educators and content teams.",
+      "tech": ["HTML", "CSS", "JavaScript", "AI APIs", "Prompt Design"]
+    },
+    {
+      "id": 2,
+      "title": "AQ QC Suite",
+      "type": "Quality Workflow Tool",
+      "link": "https://mrdeeppathak.github.io/MCQ-QC-TOOL/",
+      "subtitle": "Offline quality-control suite for assessment teams",
+      "desc": "Supports fast MCQ validation, review workflows, and structured checks for assessment content production. Designed for content teams who need reliable, offline-capable review tooling without heavy infrastructure.",
+      "tech": ["HTML", "CSS", "JavaScript", "Spreadsheet Workflow", "Validation Logic"]
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": 1,
+      "title": "Edwisely Simulation & Assessment Workflow",
+      "subtitle": "Interactive learning and assessment execution for EdTech delivery",
+      "desc": "Built and managed structured learning experiences, simulations, and delivery workflows across CMS and LMS systems. Collaborated with academic experts to translate complex Computer Science topics into interactive micro-learning flows — from DBMS and data structures to software engineering fundamentals.",
+      "tags": ["CMS/LMS", "Instructional Design", "Simulation", "Assessment"]
+    },
+    {
+      "id": 2,
+      "title": "Assessment QA & Validation Engine",
+      "subtitle": "Zero-defect content review across technical assessment domains",
+      "desc": "Validated assessment logic, domain accuracy, and content quality across Python, DBMS, SDLC, and web development topics. Established QA processes that reduced error rates to near-zero while scaling content volume — turning review from a bottleneck into a repeatable workflow.",
+      "tags": ["Quality Assurance", "Validation", "Python", "DBMS", "Scale"]
+    },
+    {
+      "id": 3,
+      "title": "Academic Mentorship & Learning Design",
+      "subtitle": "Teaching, mentoring, and research-oriented technical guidance",
+      "desc": "Mentored 200+ students across academic programs, supervised research projects, and organized technical events including hackathons and workshops. Delivered instruction in Computer Science fundamentals while building learning pathways that connected classroom theory to real-world application.",
+      "tags": ["Teaching", "Mentoring", "Research", "Higher Education"]
+    }
+  ],
+  "achievements": [
+    "Zero-defect content delivery across 500+ assessment items at Edwisely",
+    "Mentored 200+ students across academic and career guidance work",
+    "Published research work and supported student research initiatives at Ganpat University",
+    "Organized technical events including hackathons, workshops, and coding competitions"
+  ],
+  "certifications": [
+    "Cloud Application Foundation Essentials",
+    
+    "Prompt Engineering & AI Workflow Design (Practical)"
+  ],
+  "experience": [
+    {
+      "role": "Subject Matter Expert (SME) — EdTech & Computer Science",
+      "company": "Edwisely",
+      "period": "Current",
+      "focus": "Assessment QA, instructional design, CMS/LMS operations, AI-assisted content workflows"
+    },
+    {
+      "role": "Assistant Professor — Computer Science",
+      "company": "Ganpat University",
+      "period": "Previous",
+      "focus": "Teaching, student mentoring, research guidance, academic program delivery"
+    },
+    {
+      "role": "Frontend Developer",
+      "company": "Annova Solutions",
+      "period": "Previous",
+      "focus": "UI development, client collaboration, product execution"
+    },
+    {
+      "role": "Web Developer Intern (Python)",
+      "company": "IndVibe Infotech Pvt Ltd",
+      "period": "Previous",
+      "focus": "Python web development, backend fundamentals"
+    }
+  ],
+  "skillCategories": [
+    {
+      "title": "Consulting",
+      "items": [
+        "Requirement Gathering",
+        "Process Optimization",
+        "Stakeholder Communication",
+        "Data Interpretation",
+        "Problem Solving"
+      ]
+    },
+    {
+      "title": "EdTech & Instructional Design",
+      "items": [
+        "Learning Experience Design (LXD)",
+        "Simulation Development",
+        "Curriculum Design",
+        "Content Validation & QA",
+        "CMS/LMS/ERP Systems"
+      ]
+    },
+    {
+      "title": "AI & Tools",
+      "items": [
+        "Claude Code",
+        "OpenAI Codex",
+        "Cursor",
+        "Antigravity",
+        "Git/GitHub",
+        "Postman",
+        "MS Excel",
+        "Google Sheets"
+      ]
+    },
+    {
+      "title": "Technical (Supportive)",
+      "items": [
+        "Python",
+        "JavaScript",
+        "React.js",
+        "HTML5",
+        "CSS3",
+        "SQL",
+        "Django",
+        "Agile/Scrum",
+        "SDLC",
+        "DBMS",
+        "API Testing",
+        "Code Review"
+      ]
+    }
+  ]
+}
