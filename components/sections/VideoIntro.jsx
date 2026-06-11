@@ -64,7 +64,6 @@ export default function VideoIntro({ soundOn = false }) {
       <div className={styles.overlay} />
       <CinematicLayer />
       <div className={styles.content}>
-        <p className={styles.eyebrow}>Cinematic Portfolio · 2026</p>
         <h1 className={styles.name}>
           {profile.name.first}
           <br />
