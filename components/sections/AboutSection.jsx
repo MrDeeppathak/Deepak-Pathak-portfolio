@@ -7,16 +7,16 @@ const SKILLS_DOUBLED = [...profile.strengths, ...profile.strengths];
 export default function AboutSection() {
   return (
     <section className={styles.section} id="about">
-      <p className={styles.label}>{content.sections.about}</p>
-      <h2 className={styles.heading}>
+      <p className={styles.label} data-reveal>{content.sections.about}</p>
+      <h2 className={styles.heading} data-reveal>
         Educator to analyst<br />to AI-enabled product thinker.
       </h2>
-      <p className={styles.bio}>{profile.bio}</p>
+      <p className={styles.bio} data-reveal>{profile.bio}</p>
 
       {/* Experience timeline */}
       <div className={styles.timeline}>
         {profile.experience.map((item, i) => (
-          <div key={i} className={styles.timelineItem}>
+          <div key={i} className={styles.timelineItem} data-reveal>
             <span className={styles.period}>{item.period}</span>
             <div>
               <div className={styles.role}>{item.role}</div>
@@ -28,7 +28,7 @@ export default function AboutSection() {
       </div>
 
       {/* Cinematic scrolling skills band */}
-      <div className={styles.skillBand}>
+      <div className={styles.skillBand} data-reveal>
         <div className={styles.skillTrack}>
           {SKILLS_DOUBLED.map((skill, i) => (
             <span key={`${skill}-${i}`} className={styles.skillItem}>

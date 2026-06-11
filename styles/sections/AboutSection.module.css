@@ -55,6 +55,13 @@
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
   align-items: start;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+.timelineItem:hover {
+  background: rgba(235, 178, 124, 0.05);
+  border-color: rgba(235, 178, 124, 0.28);
+  transform: translateX(6px);
 }
 
 .period {

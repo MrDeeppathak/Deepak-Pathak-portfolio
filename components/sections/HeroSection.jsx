@@ -12,7 +12,7 @@ export default function HeroSection() {
       <HeroBackground />
 
       {/* Left */}
-      <div className={styles.left}>
+      <div className={styles.left} data-reveal>
         <p className={styles.greeting}>Hi, I'm</p>
         <p className={styles.shortRole}>{profile.roles.short}</p>
         <h2 className={styles.name}>
@@ -44,7 +44,7 @@ export default function HeroSection() {
       </div>
 
       {/* Center portrait */}
-      <div className={styles.center}>
+      <div className={styles.center} data-reveal data-reveal-delay="0.15">
         <div className={styles.imageWrap}>
           <Image
             src="/assets/portrait.png"
@@ -57,7 +57,7 @@ export default function HeroSection() {
       </div>
 
       {/* Right */}
-      <div className={styles.right}>
+      <div className={styles.right} data-reveal data-reveal-delay="0.3">
         <p className={styles.description}>{profile.description}</p>
         <div className={styles.stats}>
           {profile.stats.map((item) => (

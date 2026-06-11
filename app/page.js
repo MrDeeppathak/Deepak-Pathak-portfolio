@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Navbar from "@/components/ui/Navbar";
+import ScrollAnimations from "@/components/ui/ScrollAnimations";
 import ScreenLoader from "@/components/sections/ScreenLoader";
 import VideoIntro from "@/components/sections/VideoIntro";
 import HeroSection from "@/components/sections/HeroSection";
@@ -25,6 +26,7 @@ export default function Home() {
         />
       )}
       <Navbar />
+      <ScrollAnimations />
       <main>
         <VideoIntro soundOn={soundOn} />
         <HeroSection />

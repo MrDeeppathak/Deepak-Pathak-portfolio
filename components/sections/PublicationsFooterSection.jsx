@@ -6,11 +6,11 @@ export default function PublicationsFooterSection() {
   return (
     <section className={styles.section} id="footer">
       <div className={styles.top}>
-        <p className={styles.label}>{content.sections.credibility}</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.label} data-reveal>{content.sections.credibility}</p>
+        <h2 className={styles.sectionTitle} data-reveal>
           Credibility that<br />goes beyond the resume
         </h2>
-        <div className={styles.columns}>
+        <div className={styles.columns} data-reveal>
           <div>
             <p className={styles.colTitle}>Achievements</p>
             {profile.achievements.map((item) => (
@@ -26,7 +26,7 @@ export default function PublicationsFooterSection() {
         </div>
 
         {/* Core tools & skills — categorized */}
-        <div className={styles.skillsBlock}>
+        <div className={styles.skillsBlock} data-reveal>
           <p className={styles.colTitle}>Core Tools & Skills</p>
           <div className={styles.skillGrid}>
             {profile.skillCategories.map((cat) => (
@@ -44,7 +44,7 @@ export default function PublicationsFooterSection() {
       </div>
 
       {/* Closing CTA */}
-      <div className={styles.footerCta}>
+      <div className={styles.footerCta} data-reveal>
         <p className={styles.eyebrow}>{content.footer.eyebrow}</p>
         <h2 className={styles.footerName}>{profile.name.full}</h2>
         <p className={styles.footerTagline}>{content.footer.cta}</p>

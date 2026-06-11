@@ -5,13 +5,13 @@ import styles from "@/styles/sections/WorkExperienceSection.module.css";
 export default function WorkExperienceSection() {
   return (
     <section className={styles.section} id="casestudies">
-      <p className={styles.label}>{content.sections.experience}</p>
-      <h2 className={styles.sectionTitle}>
+      <p className={styles.label} data-reveal>{content.sections.experience}</p>
+      <h2 className={styles.sectionTitle} data-reveal>
         Professional work<br />behind the products
       </h2>
       <div className={styles.grid}>
         {profile.caseStudies.map((item) => (
-          <article key={item.id} className={styles.card}>
+          <article key={item.id} className={styles.card} data-reveal>
             <span className={styles.cardNum}>{String(item.id).padStart(2, "0")}</span>
             <h3 className={styles.cardTitle}>{item.title}</h3>
             <p className={styles.subtitle}>{item.subtitle}</p>
