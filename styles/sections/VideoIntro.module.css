@@ -113,9 +113,8 @@
 
 .scrollCue {
   position: absolute;
-  left: 50%;
+  left: 6vw;
   bottom: 26px;
-  transform: translateX(-50%);
   z-index: 7;
   display: inline-flex;
   align-items: center;
@@ -143,8 +142,8 @@
 }
 
 @keyframes bob {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(5px); }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
 }
 
 @keyframes arrowDrop {
