@@ -1,9 +1,7 @@
 .section {
-  min-height: 100vh;
-  padding: 120px 6vw 80px;
+  padding: 90px 6vw 60px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
 }
 
