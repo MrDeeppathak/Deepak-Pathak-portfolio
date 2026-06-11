@@ -1,5 +1,5 @@
 .section {
-  padding: 90px 6vw 60px;
+  padding: 64px 6vw 48px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -141,6 +141,17 @@
   line-height: 0.9;
   letter-spacing: -0.02em;
   margin: 4px 0 8px;
+  background: linear-gradient(115deg, #f6f1e8 30%, #ebb27c 70%, #d97320 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 0% 0;
+  transition: background-position 0.8s ease;
+}
+
+.footerName:hover {
+  background-position: 100% 0;
 }
 
 .footerTagline {
@@ -175,7 +186,8 @@
 
 .button:hover {
   background: rgba(235, 178, 124, 0.2);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px -12px rgba(217, 115, 13, 0.5);
 }
 
 .footerLinks {

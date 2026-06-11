@@ -45,7 +45,7 @@ export default function HeroSection() {
 
       {/* Center portrait */}
       <div className={styles.center} data-reveal data-reveal-delay="0.15">
-        <div className={styles.imageWrap}>
+        <div className={styles.imageWrap} data-parallax>
           <Image
             src="/assets/portrait.png"
             alt={profile.name.full}
@@ -60,12 +60,21 @@ export default function HeroSection() {
       <div className={styles.right} data-reveal data-reveal-delay="0.3">
         <p className={styles.description}>{profile.description}</p>
         <div className={styles.stats}>
-          {profile.stats.map((item) => (
-            <div key={item.label} className={styles.card}>
-              <strong>{item.value}</strong>
-              <span>{item.label}</span>
-            </div>
-          ))}
+          {profile.stats.map((item) => {
+            const match = item.value.match(/^([\d.]+)(.*)$/);
+            return (
+              <div key={item.label} className={styles.card}>
+                {match ? (
+                  <strong data-count={match[1]} data-suffix={match[2]}>
+                    {item.value}
+                  </strong>
+                ) : (
+                  <strong>{item.value}</strong>
+                )}
+                <span>{item.label}</span>
+              </div>
+            );
+          })}
         </div>
         <div className={styles.socials}>
           {profile.socials.map((s) => (

@@ -4,7 +4,7 @@
   grid-template-columns: 1.15fr 0.85fr 0.9fr;
   gap: 28px;
   align-items: center;
-  padding: 120px 6vw 70px;
+  padding: 110px 6vw 56px;
   overflow: hidden;
 }
 
@@ -83,7 +83,8 @@
 
 .ctaBtn:hover {
   background: rgba(235, 178, 124, 0.22);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px -12px rgba(217, 115, 13, 0.5);
 }
 
 .availCard {
