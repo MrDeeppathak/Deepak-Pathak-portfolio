@@ -13,6 +13,13 @@
   },
   "roles": {
     "short": "EdTech Product Builder",
+    "rotating": [
+      "Subject Matter Expert",
+      "Assistant Professor",
+      "Vibe Coder",
+      "Technical Analyst",
+      "Product Builder"
+    ],
     "detailed": "SME — CSE & Computer Applications · Assistant Professor · Tech Analyst · Product Builder"
   },
   "availability": {

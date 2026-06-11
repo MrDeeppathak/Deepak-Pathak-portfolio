@@ -18,11 +18,28 @@
 }
 
 .shortRole {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.18em;
   color: #ebb27c;
   text-transform: uppercase;
   margin-bottom: 8px;
+  min-height: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  margin-left: 4px;
+  background: #ebb27c;
+  animation: blink 0.9s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 .name {
