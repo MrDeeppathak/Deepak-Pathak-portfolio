@@ -43,9 +43,9 @@
   z-index: 5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   height: 100%;
-  padding: 0 6vw;
+  padding: 0 6vw 90px;
   gap: 8px;
 }
 
@@ -59,7 +59,7 @@
 
 .name {
   margin: 10px 0 6px;
-  font-size: clamp(52px, 9.5vw, 124px);
+  font-size: clamp(40px, 6.5vw, 84px);
   line-height: 0.9;
   font-weight: 300;
   letter-spacing: -0.01em;
