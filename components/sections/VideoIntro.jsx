@@ -80,7 +80,12 @@ export default function VideoIntro({ soundOn = false }) {
         </button>
       </div>
       {muted && <div className={styles.hint}>Tap for sound</div>}
-      <div className={styles.scrollCue}>Scroll</div>
+      <div
+        className={styles.scrollCue}
+        onClick={() => document.querySelector("#hero")?.scrollIntoView({ behavior: "smooth" })}
+      >
+        Scroll
+      </div>
     </section>
   );
 }
